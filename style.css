@@ -1,0 +1,53 @@
+body{
+    background-color:orange;
+    color:white;
+    font-weight:bold;
+    font-size:2vh;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+}
+
+.solutionBlock{
+    background-color:white;
+    align-self:center;
+    justify-self:center;
+    font-size:2vh;
+    font-weight:bold;
+    color:black;
+    height:30vh;
+    width:40vw;
+    border-radius:20px;
+    padding:30px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    align-content:center;
+    justify-items:center;
+    text-align:center;
+    overflow:auto;
+}
+
+#solution{
+    padding:15px;
+}
+
+button{
+    background-color:lightskyblue;
+    color:white;
+    border:2px solid white;
+    border-radius:10px;
+}
+
+button:hover{
+    background-color:peachpuff;
+}
+
+input{
+    border-radius:20px;
+    width:20vw;
+    text-align:center;
+}
